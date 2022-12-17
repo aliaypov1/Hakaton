@@ -1,0 +1,51 @@
+@media(max-width:768px){
+    .cards__content{
+       overflow-x: auto;
+    }
+    .cards__card1{
+        width: 400px;
+    }
+    .cards__card2{
+        width: 400px;
+    }
+    .cards__card3{
+        width: 400px;
+    }
+    .hero__title{
+        font-size: 32px;
+    }
+}
+@media(max-width:560px){
+    .header__title{
+        display: none;
+    }
+    .header__nav{
+        display: none;
+    }
+    .cards__card1{
+        width: 220px;
+        height: 250px;
+    }
+    .cards__card2{
+        width: 220px;
+        height: 250px;
+    }
+    .cards__card3{
+        width: 220px;
+        height: 250px;
+    }
+    .cards__title{
+        font-size: 19px;
+    }
+    .footer__link{
+        display: none;
+    }
+    .footer__desc{
+        display: none;
+    }
+    .cards{
+        background-color: rgba(0, 128, 0, 0.423);
+    }
+}
+@media(max-width:0){}
+@media(max-width:0){}
